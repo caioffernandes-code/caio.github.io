@@ -1,0 +1,40 @@
+header{
+
+  background-image: url("banner.jpg");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+  
+  height: 400px; 
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+ul{
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style: none;
+    
+}
+
+.p{
+
+    gap: 30;
+    
+}
+
+
+.ACTIVE {
+
+    color: white;
+    padding: 10%;
+    
+}
+
+footer{
+
+    background-color: black;
+}
