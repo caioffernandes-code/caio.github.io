@@ -1,61 +1,220 @@
-header{
-
-  background-image: url("banner.jpg");
-  background-size: cover;      
-  background-position: center; 
-  background-repeat: no-repeat;
-  
-  height: 400px; 
-  color: white;
-  text-align: center;
-  padding-top: 80px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul{
+
+
+header {
+
+    background-image: url("banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 400px;
+
+    color: white;
+
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+
+
+
+ul {
 
     display: flex;
+
     justify-content: center;
-    gap: 5%;
+
+    gap: 40px;
+
     list-style: none;
-    
+
 }
 
+ul a {
 
+    color: white;
 
-.p{
+    text-decoration: none;
 
-    gap: 30;
-    
+    padding: 10px 15px;
+
+    border-radius: 20px;
+
 }
-
-.main-grid-3{
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-}
-
 
 .ACTIVE {
 
-    color: white;
-    padding: 10%;
-    
+    border: 2px solid white;
+
 }
 
 
-footer{
 
-    background-color: black;
-    color: white;
-    gap: 10;
+
+.main-right {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 40px;
+
+    margin: 40px;
+
 }
 
-.grid-3{
 
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    
-    
+
+.conteudo-esquerda {
+
+    flex: 3;
+
+}
+
+.conteudo-esquerda img {
+
+    width: 100%;
+
+    margin: 20px 0;
+
+}
+
+.main-h1 {
+
+    margin-bottom: 10px;
+
+}
+
+.p {
+
+    margin-bottom: 15px;
+
+    color: gray;
+
+}
+
+
+
+
+.conteudo-direita {
+
+    flex: 1;
+
+}
+
+.post {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+
+}
+
+.post img {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: cover;
+
+}
+
+
+
+
+.main-grid-3 {
+
+    background-color: #f0f0f0;
+
+    display: flex;
+
+    gap: 40px;
+
+    margin: 40px;
+
+}
+
+.main-grid-3 div {
+
+    flex: 1;
+
+}
+
+.main-grid-3 img {
+
+    width: 100%;
+
+    margin: 10px 0;
+
+}
+
+
+
+.more-details {
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 10px 20px;
+
+    background-color: #d8523c;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+}
+
+
+
+
+footer {
+
+    background-color: #1b1b1b;
+
+    color: white;
+
+    padding: 40px;
+
+}
+
+.grid-3 {
+
+    display: flex;
+
+    gap: 40px;
+
+}
+
+.grid-3 div {
+
+    flex: 1;
+
+}
+
+
+hr {
+
+    height: 1px;
+
+    border: none;
+
+    background-color: #706963;
+
+    margin: 8px 0;
+
 }
